@@ -1,0 +1,57 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>manage prescription</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <div class="row">
+        <div class="col-md-4 m-auto"><br>
+            <center><h5>Add Prescription</h5></center>
+            <form action="" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="p_no" placeholder="Patient No">
+                </div><br>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="p_name" placeholder="Patient Name">
+                </div><br>
+                <div class="form-group">
+                    <select class="form-control" name="medicine">
+                    <option>-Select medicine-</option>
+                                                <option>Amoxicillin</option>
+                                                    <option>Calcium</option>
+                                                    <option>Dopamine</option>
+                                                    <option>Anoxaparin</option>
+                                                    <option>Hydralazine</option>
+                                            </select>
+                </div><br>
+                <div class="form-group">
+                    <select class="form-control" name="dose">
+                    <option>-Select dose-</option>
+                    <option>1 dose</option>
+                    <option>2 dose</option>
+                    <option>3 dose</option>
+                </select>
+                </div><br>
+                <div class="form-group">
+                    <input type="date" class="form-control" name="p_date" placeholder="Select date">
+                </div><br>
+                <div class="form-group">
+                    <textarea class="form-control" name="remark">Remark...</textarea>
+                </div><br>
+                <button type="submit" class="btn btn-primary" name="add_prescription">Save</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
